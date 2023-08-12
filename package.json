@@ -1,0 +1,33 @@
+{
+  "name": "notion-block-email",
+  "version": "1.0.0",
+  "description": "A Node.js script that sends a random notion block to my email every morning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnSomething/Notion-Block-Email.git"
+  },
+  "keywords": [
+    "notion",
+    "email",
+    "integration",
+    "script",
+    "nodejs"
+  ],
+  "author": "Shawny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShawnSomething/Notion-Block-Email/issues"
+  },
+  "homepage": "https://github.com/ShawnSomething/Notion-Block-Email#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.2.9",
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.4"
+  }
+}
